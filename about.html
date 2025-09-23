@@ -12,32 +12,25 @@
     />
   </head>
   <body>
-    <img src="images/RAGE LOGOS/RAGE LOGO B.jpg" alt="logo" class="logo">
-    <form action="https://www.theragemediagroup.com" method="post">
+    <img  src="./images/RAGE LOGOS/RAGE LOGO B.jpg" alt="RAGE Media Group Logo" class="logo" />
+    <form action="https://www.theragemediagroup.com" method="post" class="contact-form">
       <fieldset>
-        <label for="name">Name</label>
-        <br />
-        <input type="text" id="name" placeholder="ENTER YOUR NAME" required />
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
       </fieldset>
       <fieldset>
-        <label for="email">EMAIL</label>
-        <br />
-        <input type="text" placeholder="ENTER EMAIL" required />
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
       </fieldset>
       <fieldset>
-        <label for="number">PHONE</label>
-        <br />
-        <input type="text" placeholder="ENTER NUMBER" required />
+        <label for="phone">Phone</label><br />
+        <input type="tel" id="phone" name="phone" placeholder="Enter your number" required />
       </fieldset>
       <fieldset class="services">
-        <label for=""
-          >SERVICE OR INTEREST<span><sup>*</sup></span></label
-        >
-        <textarea></textarea>
+        <label for="services">Service of Interest <span><sup>*</sup></span></label><br />
+        <textarea id="services" name="services" rows="4" placeholder="Tell us what service you're interested in..." required></textarea>
       </fieldset>
-
-      <button type="submit" value="Submit">GET A FREE CONSULTATION</button>
+      <button type="submit">Get a Free Consultation</button>
     </form>
-    <footer>
   </body>
 </html>
